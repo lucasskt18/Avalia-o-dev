@@ -1,4 +1,3 @@
-# Avalia-o-dev
 # Avaliação de Desempenho de Programadores
 
 Bem-vindo ao projeto de Avaliação de Desempenho de Programadores! Este é um projeto inicial e ainda está em desenvolvimento. Sua contribuição é bem-vinda para melhorar e expandir este projeto.
