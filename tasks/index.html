@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Avaliação de Desempenho</title>
+  </head>
+  <body>
+    <header>
+      <h1>Avaliação de Desempenho de Programadores</h1>
+    </header>
+    <main>
+      <div id="levelForm">
+        <label for="developerLevel">Selecione seu nível de senioridade:</label>
+        <select id="developerLevel">
+          <option value="junior">Júnior</option>
+          <option value="intermediate">Pleno</option>
+          <option value="senior">Sênior</option>
+        </select>
+        <button id="levelSubmitBtn">Confirmar</button>
+      </div>
+      <section id="questions" class="hidden">
+        <!-- Perguntas e respostas serão adicionadas dinamicamente com JavaScript -->
+      </section>
+      <button id="submitBtn" class="hidden">Enviar Respostas</button>
+      <div id="feedback"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Avaliação de Desempenho</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
